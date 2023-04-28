@@ -1,87 +1,28 @@
+
 // Definiamo i dati dei punti come un array di oggetti
 // NOTA: gli attributi: distance, driveDuration, cestinato, startingAddr, destinationAddr  saranno usati 
 // per contenere delle informazioni che andranno ad essere inserite dal programma.
 
 const locations = [
   {
-    location: 'Turin Cathedral',
-    description: 'A historic Roman Catholic cathedral located in the heart of Turin, known for its stunning architectural design and beautiful stained glass windows.',
-    coordinates: { lat: 45.07050, lng: 7.68688 },
+    location: 'DAMMI UN CINQUE',
+    description: 'VIA BARLETTA 109 INT. 19/A'+'\n'+
+    '10100 TORINO'+'\n'+'DAL MARTEDI ALLA DOMENICA DALLE ORE 15.00 ALLE 19.00',
+    coordinates: { lat: 45.049196, lng: 7.635916 },
     distance: 1.0,
     driveDuration: 1.0,
     startingAddr: '',
-    destinationAddr: 'Cathedral of Saint John the Baptist, Piazza San Giovanni, 10122 Torino TO',
+    destinationAddr: 'Via Barletta, 109 INT. 19/A, 10136 Torino TO',
       },
   {
-    location: 'Mole Antonelliana',
-    description: 'A landmark building in Turin, serving as the National Museum of Cinema, with a breathtaking panoramic view of the city from its rooftop terrace.',
-    coordinates: { lat: 45.06816, lng: 7.68557 },
+    location: 'GRUPPO ORMA',
+    description: 'VIA CHIVASSO 37'+'\n'+
+    '10080 - SAN BENIGNO CANAVESE'+'\n'+'PRIMO E TERZO SABATO DI OGNI MESE'+'\n'+
+    'DALLE ORE 09.00 ALLE ORE 12.00',
+    coordinates: { lat: 45.221699, lng: 7.788591 },
     distance: '2',
     driveDuration: '2',
     startingAddr: '',
-    destinationAddr: 'Via Montebello, 20, 10124 Torino TO',
-  },
-  {
-    location: 'Royal Palace of Turin',
-    description: 'A historic palace in Turin, built in the 16th century, that once served as the residence of the Royal House of Savoy.',
-    coordinates: { lat: 45.06910, lng: 7.69000 },
-    distance: 3.0,
-    driveDuration: 3.0,
-    startingAddr: '',
-    destinationAddr: 'Piazzetta Reale, 1, 10122 Torino TO',
-  },
-  {
-    location: 'Turin Egyptian Museum',
-    description: 'A museum in Turin dedicated to the ancient civilizations of Egypt, with a vast collection of artifacts and exhibits dating back to over 4,000 years.',
-    coordinates: { lat: 45.06971, lng: 7.68827 },
-    distance: 5.0,
-    driveDuration: 5.0,
-    startingAddr: '',
-    destinationAddr: 'Via Accademia delle Scienze, 6, 10123 Torino TO',
-  },
-  {
-    location: 'Piazza Castello',
-    description: 'A central square in Turin, surrounded by historic buildings and beautiful baroque-style palaces, making it one of the most picturesque spots in the city.',
-    coordinates: { lat: 45.06838, lng: 7.68493 },
-    distance: 6.0,
-    driveDuration: 6.0,
-    startingAddr: '',
-    destinationAddr: 'Piazza Castello',
-  },
-  {
-    location: 'Turin National Automobile Museum',
-    description: 'A museum in Turin dedicated to the history of the automobile, showcasing over 200 classic cars, from the earliest models to the most recent.',
-    coordinates: { lat: 45.06740, lng: 7.68417 },
-    distance: 7.0,
-    driveDuration: 7.0,
-    startingAddr: '',
-    destinationAddr: '',
-  },
-  {
-    location: 'Palazzo Madama',
-    description: 'A historic palace in Turin, dating back to the 13th century, that has served as the city’s town hall, a royal residence, and now as a museum.',
-    coordinates: { lat: 45.06957, lng: 7.69168 },
-    distance: 8.0,
-    driveDuration: 8.0,
-    startingAddr: '',
-    destinationAddr: 'Corso Unità d\'Italia, 40, 10126 Torino TO',
-  },
-  {
-    location: 'Turin Botanical Garden',
-    description: 'A botanical garden in Turin, boasting a vast collection of plants and flowers from around the world, including exotic and endangered species.',
-    coordinates: { lat: 45.06630, lng: 7.71639 },
-    distance: 9.0,
-    driveDuration: 9.0,
-    startingAddr: '',
-    destinationAddr: 'Viale Mattioli, 25, 10125 Torino TO',
-  },
-  {
-    location: 'Turin City Hall',
-    description: 'A historic building in Turin, housing the city’s government offices and council chambers, with a stunning Renaissance-style façade and beautiful interiors.',
-    coordinates: { lat: 45.06740, lng: 7.68417 },
-    distance: 10.0,
-    driveDuration: 10.0,
-    startingAddr: '',
-    destinationAddr: 'Via Saluzzo, 24, 10125 Torino TO',
+    destinationAddr: 'Via Chivasso, 37, 10080 San Benigno Canavese TO',
   }];
 export default locations;
